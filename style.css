@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#cookie-notice {
+  position: fixed;
+  bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.204);
+  color: white;
+  font-family: arial;
+  font-size: 2rem;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.button {
+  border: none;
+  font-size: 16px;
+  padding: 4px 4px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-accept {
+  color: rgb(0, 157, 78);
+}
+
+.button-decline {
+  color: red;
+}
